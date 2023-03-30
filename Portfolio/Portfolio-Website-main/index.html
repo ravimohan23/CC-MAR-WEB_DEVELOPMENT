@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
+
+  <!-- Bootstrap Js -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+  <!-- My CSS -->
+  <link rel="stylesheet" href="./styles/style.css" />
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/996973c893.js"></script>
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;500;600;700;800&family=Roboto+Slab:wght@200;400;600;900&display=swap"
+    rel="stylesheet" />
+
+  <title>Ravi Mohan Portfolio</title>
+</head>
+
+<body>
+  <!-- Making the navbar responsive -->
+  <div class="container pt-3">
+    <div class="row">
+      <div class="col-6 d-flex justify-content-start align-items-center">
+        <i class="fas fa-code fa-2x text-warning pb-3"></i>
+        <h3 class="text-white d-inline pl-2">Portfolio</h3>
+      </div>
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#about">About<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active ">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </div>
+
+  <div class="container main-container">
+    <div class="row main_row">
+      <div class="col-6">
+        <h2 class="text-white">Hello, I'm</h2>
+        <h1 class="text-warning m-heading">Ravi Mohan</h1>
+        <h2 class="text-white">Student | Learner | Explorer</h2>
+      </div>
+      <div class="col-6">
+        <img alt="GIF" src="images/photo boy.png" class="img-fluid">
+      </div>
+    </div>
+  </div>
+
+  <div id="about" class="container about p-5">
+    <div class="row">
+      <div class="col-6">
+        <img src="images/photo boy.png"  height="250px" width="250px"/>
+      </div>
+      <div class="col-6 pl-5 pt-5 pb-5 text-white">
+        <h3 class="text-warning">About Me</h3>
+        <br>
+        <h1 class="m-heading">Ravi</h1>
+        <p>
+          I am an engineering student and has speialization in
+          <b class="text-warning">Artificial Intelligence and Machine Learning</b> at Jaypee University of Engineering And Technology,Guna
+
+        </p>
+        <p>
+          <b class="text-warning">My Tech Stack</b>
+        <ul>
+          <li> C++ </li>
+          <li>HTML | CSS | JavaScript</li>
+          <li>Data Structures & Algorithms</li>
+          <li>Machine Learning</li>
+        </ul>
+        <b class="text-warning">College Achievements</b>
+        <ul>
+          <li>Joint Secreatory at GFG</li>
+        </ul>
+
+        </p>
+        <a href="https://www.coursera.org/accomplishments"><button class="btn btn-outline-warning">Certificates</button></a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Projects Section -->
+  <div id="projects" class="container mt-3 pt-5">
+    <h3 class="text-warning mb-3 pb-2 text-center">My Projects</h3>
+    <div class="row">
+      <div class="col-4 mb-5">
+        <div class="card" style="width: 18rem;">
+          <img src="images/Project1.png" class="card-img-top" style="height: 13rem;" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Trading bot</h5>
+            <p class="card-text">
+              Helps to automated financial activities in share market.
+            </p>
+            <a href="/" class="btn btn-warning">See Project</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-4 mb-5">
+        <div class="card" style="width: 18rem;">
+          <img src="images/project2.png" class="card-img-top img-fluid" alt="..." style="height: 13rem;" />
+          <div class="card-body">
+            <h5 class="card-title">Personality Prediction</h5>
+            <p class="card-text">
+              Helps to predict persoanlity via persoanlity traits.
+
+            </p>
+            <a href="/" class="btn btn-warning">See Project</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-4 mb-5">
+        <div class="card" style="width: 18rem;">
+          <img src="images/calculator.gif" class="card-img-top img-fluid" alt="..." style="height: 13rem;" />
+          <div class="card-body">
+            <h5 class="card-title">calculator</h5>
+            <p class="card-text">
+              Used to calculate multiple operations.
+
+            </p>
+            <a href="/" class="btn btn-warning">See Project</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Social Media Section -->
+  <div id="contact" class="container-fluid ">
+    <h3 class="text-warning text-center container-title">Contact Me</h3>
+    <!-- <h1 class="m-heading">Let's be friends</h1> -->
+    <div class="row pt-5 social-container">
+
+      <!-- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
+      <a href="/" class="social-links" style="text-decoration: none;">
+        <div class="col-3 contact_link btn">
+          <div class="row">
+            <div class="col-6 d-flex justify-content-start">
+              <h3 class="m-0 pt-2 text-white soc-name">LinkedIn</h3>
+            </div>
+            <div class="col-6 d-flex justify-content-end align-items-center">
+              <i class="fab fa-linkedin-in fa-2x text-secondary icons"></i>
+            </div>
+          </div>
+        </div>
+      </a>
+       <!-- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
+
+      <a href="/" class="social-links" style="text-decoration: none;">
+        <div class="col-3 contact_link btn">
+          <div class="row">
+            <div class="col-6 d-flex justify-content-start">
+              <h3 class="m-0 pt-2 text-white soc-name">GitHub</h3>
+            </div>
+            <div class="col-6 d-flex justify-content-end align-items-center">
+              <i class="fab fa-github fa-2x text-secondary icons"></i>
+            </div>
+          </div>
+        </div>
+      </a>
+       <!-- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
+
+      <a href="/" class="social-links" style="text-decoration: none;">
+        <div class="col-3 contact_link btn">
+          <div class="row">
+            <div class="col-6 d-flex justify-content-start">
+              <h3 class="m-0 pt-2 text-white soc-name">Instagram</h3>
+            </div>
+            <div class="col-6 d-flex justify-content-end align-items-center">
+              <i class="fab fa-instagram fa-2x text-secondary icons"></i>
+            </div>
+          </div>
+        </div>
+      </a>
+       <!-- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
+
+      <a href="/" class="social-links" style="text-decoration: none;">
+        <div class="col-3 contact_link btn">
+          <div class="row">
+            <div class="col-6 d-flex justify-content-start">
+              <h3 class="m-0 pt-2 text-white soc-name">Email</h3>
+            </div>
+            <div class="col-6 d-flex justify-content-end align-items-center">
+              <i class="fas fa-envelope fa-2x text-secondary icons"></i>
+            </div>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+  <!-- Footer -->
+
+  <!-- <footer> -->
+  <!-- <div class="container text-muted text-center py-3 mt-5">
+    <h5>
+      Copyright &copy; 2021 |
+      <a class="text-warning text-decoration-none" href="#about">khushiatcode</a>
+    </h5>
+  </div> -->
+  <!-- </footer> -->
+
+
+  <div class="text-center p-3">
+    <h5>
+      © 2023 Copyright:
+      <a class="text-white" href="#about">Ravi Mohan</a>
+    </h5>
+  </div>
+  <button type="button" class="btn btn-danger btn-floating btn-lg" id="btn-back-to-top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <script src="./script/script.js"></script>
+</body>
+
+</html>

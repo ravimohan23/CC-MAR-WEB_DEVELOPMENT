@@ -1,0 +1,148 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #1f2235;
+    font-family: "Baloo Tamma 2", cursive;
+}
+
+.m-heading {
+    font-family: "Roboto Slab", serif;
+}
+
+.navigation-link {
+    border: 2px solid transparent;
+}
+
+.navigation-link:hover {
+    text-decoration: none;
+    border-bottom: 2px solid #f5ba09;
+    transition: 0.5s ease;
+}
+
+.main-container {
+    min-height: 100vh;
+    padding-top: 5rem;
+}
+
+.main_row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_row h1 {
+    font-size: 5rem;
+}
+
+.main-row img {
+    width: auto;
+    height: 100%;
+}
+
+#about {
+    background: #313552;
+    border-radius: 0.5rem;
+}
+
+.card {
+    border-bottom: 8px solid #f5ba09;
+}
+
+#contact {
+    background: #313552;
+}
+
+.contact_link {
+    padding: 1rem;
+    max-width: 15rem;
+    margin-left: 1rem;
+    border: 2px solid #f5ba09;
+    border-radius: 0.5;
+}
+
+.pt-5,
+.py-5 {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+}
+
+h3 {
+    padding-top: 2rem !important;
+}
+
+h5 {
+    margin: 1rem;
+}
+
+.pb-3,
+.py-3 {
+    padding-bottom: 2rem !important;
+}
+
+.contact_link:hover {
+
+    box-shadow: 15px 15px 8px 3px;
+}
+
+.p-3 {
+    color: #313552;
+    background-color: #1f2235;
+}
+
+#btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+}
+.social-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.social-links{
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-top: 2rem;
+    
+}
+.contact_link, .row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.contact_link{
+    border: 3px solid #f5ba09;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+/* .social-links, .contact_link{ */
+    /* border: 2px solid #f5ba09; */
+    /* background-color: #f5ba09; */
+/* } */
+.contact_link:hover{
+    background-color: #f5ba09;
+    box-shadow: 0px 0px 5px #f5ba09,
+                0px 0px 15px #f5ba09,
+                0 0 25px #f5ba09,
+                0 0 35px #f5ba09,
+                0 0 45px #f5ba09,
+                0 0 55px #f5ba09;
+    border: 3px solid #fff;
+
+}
+.icons{
+    color: #fff !important;
+}
+.soc-name, .soc-name:hover{
+    outline: none;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.container-title{
+    font-size: 40px;
+}
